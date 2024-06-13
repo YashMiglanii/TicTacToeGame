@@ -1,0 +1,31 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#GameContainer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(202, 73, 225);
+}
+
+#cellcontainer{ 
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        width: 225px;
+        margin : auto;
+}
+
+#RestartBtn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(1, 18, 23);
+    padding: 15px 20px;
+    background-color: rgb(245, 120, 145);
+}   
